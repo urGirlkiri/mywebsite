@@ -1,3 +1,15 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+@theme {
+  --color-blue: #55c1f9;
+  
+  --color-yellow: #f9e236;
+  --color-dark-yellow: #e2ae0e;
+
+  --color-purple: #ab51db;
+  --color-dark-purple: #7710be;
+  
+  --color-pink: #ba1b94;
+}
