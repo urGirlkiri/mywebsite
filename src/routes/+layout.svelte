@@ -15,7 +15,7 @@
 		name="keywords"
 		content="Christin Nyakanyanga, grimoji maker, Destoryer's Fury creator, Kai's Genesis author, Ghetto Coders, Fluent Epub Maker"
 	/>
-	<link rel="canonical" href="https://grimoji.io" />
+	<link rel="canonical" href="https://girlkiri.me" />
 	<link rel="icon" href={favicon} />
 </svelte:head>
 {@render children()}
