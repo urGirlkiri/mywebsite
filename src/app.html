@@ -1,43 +1,33 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js" 
+
+<head>
+	<meta charset="utf-8" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.sin.js"
 		integrity="sha512-jq8sZI0I9Og0nnZ+CfJRnUzNSDKxr/5Bvha5bn7AHzTnRyxUfpUArMzfH++mwE/hb2efOo1gCAgI+1RMzf8F7g=="
-		 crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" 
-		integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" 
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+		integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">Readability
-How type influences readability
-Material design guidelines
-Styling text
-Optimize font loading
-Achieve faster page load times
-Google Fonts API
-Get started with web fonts
-Self-hosting web fonts
-Get the most out of self-hosting
-Internationalization
-Consider your language needs
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="text-scale" content="scale" />
+	%sveltekit.head%
+</head>
 
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="text-scale" content="scale" />
-		%sveltekit.head%
-	</head>
-	<body data-sveltekit-preload-data="hover" class="bg-white text-purple-700">
-		<div style="display: contents" class="relative z[1]">%sveltekit.body%</div>
-		<div class="top-0 left-0 z-[-1] absolute opacity-70 w-full min-h-screen">
-			<div class="absolute insert-0" id="particles-js"></div>
-		</div>
-		<script>
-			particlesJS.load ('particles.js', 'assets/particles.json', function(){
-				console.log('Callback-particles.js config loaded')
-			})
+<body data-sveltekit-preload-data="hover" class="bg-purple-950 text-black">
+	<div style="display: contents" class="relative z[1]">%sveltekit.body%</div>
+	<div class="top-0 left-0 z-[-1] absolute opacity-70 w-full min-h-screen">
+		<div class="absolute insert-0" id="particles-js"></div>
+	</div>
+	<script>
+		particlesJS.load('particles.js', 'assets/particles.json', function () {
+			console.log('Callback-particles.js config loaded')
+		})
 
-        </script>
-	</body>
+	</script>
+</body>
 
 </html>
