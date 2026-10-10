@@ -1,5 +1,6 @@
 <script lang="ts">
 	import './layout.css';
+	import { page } from '$app/state';
 	import favicon from '$lib/assets/favicon.svg';
 
 	let { children } = $props();
@@ -17,7 +18,7 @@
 	/>
 	<meta property="og:site_name" content="Christin Nyakanyanga" />
 
-	<link rel="canonical" href="https://girlkiri.me" />
+	<link rel="canonical" href={`https://girlkiri.me${page.url.pathname}`} />
 	<link rel="icon" href={favicon} />
 </svelte:head>
 {@render children()}
