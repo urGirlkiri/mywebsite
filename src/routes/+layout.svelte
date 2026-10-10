@@ -7,17 +7,17 @@
 
 <svelte:head>
 	<title>Christin Nyakanyanga</title>
-		<meta
+	<meta
 		name="description"
-		content="Merge magical elements on a dark runic grid. Discover 800+ unique emoji recipes in Grimoji, the ultimate gothic alchemy puzzle game combining 2048 and match-3 mechanics."
+		content="Hello 👋️, its your gal kiri also known as Christin Nyakanyanga. Welcome to my website :)"
 	/>
 	<meta
 		name="keywords"
 		content="Christin Nyakanyanga, grimoji maker, Destoryer's Fury creator, Kai's Genesis author, Ghetto Coders, Fluent Epub Maker"
 	/>
+	<meta property="og:site_name" content="Christin Nyakanyanga" />
+
 	<link rel="canonical" href="https://girlkiri.me" />
 	<link rel="icon" href={favicon} />
 </svelte:head>
 {@render children()}
-
-
